@@ -11,8 +11,8 @@ fn get_greeting(name: &str) -> &str {
 fn test_get_greeting() {
   assert_eq!(get_greeting("gizmo"), "Hello Boss!");
   assert_eq!(get_greeting("Gizmo"), "Hello Boss!");
-  assert_eq!(get_greeting(""),      "Aggh, another drone ...");
-  assert_eq!(get_greeting("Sulik"), "Aggh, another drone ...");
+  assert_eq!(get_greeting(""),      "Argh, another drone ...");
+  assert_eq!(get_greeting("Sulik"), "Argh, another drone ...");
 }
 
 fn main() {
