@@ -1,0 +1,6 @@
+[package]
+name = "hello_gizmo"
+version = "0.1.0"
+authors = ["jev <eb120@hw.ac.uk>"]
+
+[dependencies]

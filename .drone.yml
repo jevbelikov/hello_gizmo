@@ -1,0 +1,11 @@
+workspace:
+  base: /rs
+  path: src/github.com/jevbelikov/hello_gizmo
+
+pipeline:
+  build:
+    image: rust
+    commands:
+      - cargo test
+      - cargo build
+      - cargo build --release
